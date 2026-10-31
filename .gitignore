@@ -3,3 +3,5 @@ __pycache__/
 *.stl
 *.3mf
 *.f3d
+!print/*.3mf
+result.json

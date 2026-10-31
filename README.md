@@ -12,10 +12,15 @@ out the far end netted, onto the counter.
 
 ## Printing
 Print mouth-down (flange flat on the bed). Every surface overhangs 45 degrees or less, so
-no supports are needed. Footprint is about 172 x 160 mm, 156 mm tall. PETG is a good choice
-for food contact and hot-water washing.
+no supports are needed. Footprint is about 172 x 160 mm, 156 mm tall. If printed in PLA,
+wash it by hand in warm (not hot) water; PLA softens around 55-60 C.
 
 ## Generate the model
 1. Copy `NettingApplicator/` into `%APPDATA%\Autodesk\Autodesk Fusion 360\API\Scripts\`.
 2. In Fusion: Utilities > Add-Ins > Scripts and Add-Ins > NettingApplicator > Run.
 3. Change dimensions (mm) at the top of `NettingApplicator.py` and re-run.
+
+## Bambu Studio project
+`print/NettingApplicator_H2S_PLA.3mf` is a Bambu Studio project for the H2S (0.4 nozzle), ready to
+slice: Bambu PLA Basic, Textured PEI plate at 55 C, 0.20 mm layers, 4 walls, 5 top / 4 bottom
+layers, 20% gyroid infill, no supports, seam at back. About 5 h 36 min and 323 g.
