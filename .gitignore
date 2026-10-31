@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.stl
+*.3mf
+*.f3d

@@ -1,0 +1,10 @@
+{
+	"autodeskProduct": "Fusion",
+	"type": "script",
+	"author": "",
+	"description": {
+		"": "Generates a meat-netting applicator tube with square flange and table bracket"
+	},
+	"supportedOS": "windows|mac",
+	"editEnabled": true
+}
